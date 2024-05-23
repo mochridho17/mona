@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.TambahGeofenceActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/etGeofenceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Geofence Name"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSaveGeofence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Geofence"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

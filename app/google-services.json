@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "290754369396",
+    "firebase_url": "https://monatree-b0c8e-default-rtdb.firebaseio.com",
+    "project_id": "monatree-b0c8e",
+    "storage_bucket": "monatree-b0c8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290754369396:android:7638dc8235d69dd284fe21",
+        "android_client_info": {
+          "package_name": "com.dosetsu.monatree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYcyWneytaYH6_7VDLIkKCw9ud5ITvduM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
